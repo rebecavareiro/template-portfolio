@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Rebeca Simplicio Vareiro</title>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,
+    300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <link rel="stylesheet" href="./src/css/contato.css">
+
+
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">RV</h1>
+        </a>
+
+        <nav class="menu">
+            <ul class="botoes-menu">
+                <li>
+                    <a href="index.html"> SOBRE MIM</a>
+                </li>
+                <li>
+                    <a href="contato.html"> CONTATO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+    
+        <div class="box-formulario">        
+        
+            <div class="formulario">
+                        
+                <div class="title-form alt">
+                    <h1>Contato</h1>
+                </div>
+            
+                <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+                    <input type="hidden" name="recipient" value="rebecavareiro@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+                    <input type="hidden" name="redirect" value="index.html"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+                    <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
+                    <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                            
+                             
+                    <span>
+                        <input class="width-slide" id="nome" type="text" placeholder="Nome" autocomplete="off" required="" />
+                        <label for="nome"> <i class="icon icon-user-1"></i> </label>
+                    </span>
+                             
+                            
+                            
+                    <span>
+                        <input class="width-slide" id="email" type="text" placeholder="E-mail" autocomplete="off" required="" />
+                        <label for="email"> <i class="icon icon-mail-1"></i> </label>
+                    </span>
+                              
+                            
+                           
+                    <span>
+                        <input class="width-slide" id="assunto" type="text" placeholder="Assunto" autocomplete="off" required="" />
+                        <label for="assunto"> <i class="icon icon-info"></i> </label>
+                    </span> 
+                              
+                             
+                    <span>
+                        <textarea class="width-slide" id="mensagem" name="mensagem" type="text" rows="3" placeholder="Mensagem" autocomplete="off" required=""></textarea>
+                        <label for="mensagem"> <i class="icon icon-comment"></i> </label>
+                    </span> 
+                             
+                            
+                    <div class="botom">       
+                        <span>
+                            <input type="submit" value="Enviar" class="btn-submit">
+                            <input type="reset" name="BTApaga" value="Apagar" class="btn-submit">
+                        </span> 
+                    </div>
+                </form>
+            
+            </div>
+            
+        </div><!--Box Formulario--> 
+        
+    </section>
+
+
+</body>
+</html>

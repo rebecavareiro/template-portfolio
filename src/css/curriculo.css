@@ -1,0 +1,143 @@
+
+h1,h2 {
+	font-family: Georgia;
+}
+
+h1 {
+	border-bottom: 3px solid #aaa;
+	
+	color: #ddd;
+	padding: 5px;	
+}
+
+h2 {
+	border-top: 1px solid #07060621;
+	border-bottom: 1px solid #11101010;
+	background-color: #11111100;
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
+
+.secao {
+	
+	padding-left: 15px;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+label:after {
+	content: ":";
+}
+
+
+#menu {
+	margin: 0;
+}
+
+#menu ul, #menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu .ativo {
+	background-color: #ddd;
+}
+
+.vcard {
+	padding: 5px;
+}
+
+.url, .email {
+	display: block;
+}
+
+.photo {
+	float: right;
+	margin-right: 20%;
+}
+
+#footnote {
+	border-top: 1px dashed #aaa;
+	padding: 5px;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+#footnote li {
+	list-style-type: none;
+	margin-top: 3px;
+}
+
+@-webkit-keyframes down {
+    0%,
+    50%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25%,
+    75% {
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+    }
+  }
+  @keyframes down {
+    0%,
+    50%,
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    25%,
+    75% {
+      -webkit-transform: translateY(6px);
+      transform: translateY(6px);
+    }
+  }
+  .btn {
+    
+      padding: 0.7em 1.3em;
+      cursor: pointer;
+      background: linear-gradient(90deg, #8002a6 0%, #b109db41 100%);
+      text-decoration: none;
+      font-weight:bold;
+      font-size:1.1em; 
+      color: #fff;
+      border-radius:8px;
+      transition:0.3s; 
+  }
+  .down {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    padding-left: 2.7em;
+  }
+  .down:before {
+    content: "\e4a8";
+    position: absolute;
+    left: 1em;
+    padding: 0 1px;
+    font-family: untitled-font-1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .down:hover:before, .down:focus:before, .down:active:before {
+    -webkit-animation-name: down;
+    animation-name: down;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
